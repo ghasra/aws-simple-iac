@@ -1,2 +1,3 @@
 # aws-simple-iac
 Samples for Infrastructure as Code (IaC)
+This repository contains an AWS CloudFormation YAML template that deploys a highly available MySQL database environment on AWS using Amazon RDS Multi-AZ for automatic failover and high resilience. It provisions a full VPC architecture with public and private subnets across two Availability Zones, an Internet Gateway, route tables, and a secure subnet group for RDS. The template follows AWS best practices by implementing secure networking, automated backups, and deletion protection, making it an ideal foundation for building scalable and fault-tolerant cloud infrastructures.
